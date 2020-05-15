@@ -1,18 +1,37 @@
-hello js rocket
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Rocket</title>
+	<script type="text/javascript"> 
+		var car = {
+			make: 'mahandra',
+			type: 'xuv 500',
+			color: 'red',
+			isturnedon: false,
+			noofwheels: 4,
+			seat: [ 'seat 1', 'seat 2','seat 3', 'seat 4'],
+			turnon: function () { 
+				this.isturnedon = true;
+			},
+			fly: function()
+				{ alert ('fly');},
 
-<script type="text/javascript">
-	console.log ('hello there friends')
-	var favcolor = 'red';
-	var myFavColors = ['blue''red''green'];
-	var numOfFavColors = 3;
-	var hasGotFavColours = true;
-	var bennyObject ={
-		firstName: 'Benedict',
-		lastName: 'Aruldas',
-		favColor: ['blue' 'red' 'green'],
-		yearsAlive: 120,
-		isMale: true
-	};
-	bennyObject.isMale
+				switchcar: function (ison)   {
+					console.log('turn car' + ison);
+					if (ison == true){ this.isturnedon = true; } 
+					else {this.isturnedon = false; }
+				}
 
+
+
+
+					};
+		console.log( 'hello friends look at my car');
 </script>
+</head>
+<body>
+	<H1> JS Rocket</H1>
+
+
+</body>
+</html>
