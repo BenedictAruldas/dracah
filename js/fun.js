@@ -3,6 +3,11 @@ var sayMyName = function (name)
    alert ('My name is:'+ name);
 }
 
+var sayThis = function (message) 
+{ 
+    alert ("Message :" + message);
+}
+
 
 var car = {
     		    make: 'vw',
