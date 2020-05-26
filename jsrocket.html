@@ -1,37 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>JS Rocket</title>
-	<script type="text/javascript"> 
-		var car = {
-			make: 'mahandra',
-			type: 'xuv 500',
-			color: 'red',
-			isturnedon: false,
-			noofwheels: 4,
-			seat: [ 'seat 1', 'seat 2','seat 3', 'seat 4'],
-			turnon: function () { 
-				this.isturnedon = true;
-			},
-			fly: function()
-				{ alert ('fly');},
-
-				switchcar: function (ison)   {
-					console.log('turn car' + ison);
-					if (ison == true){ this.isturnedon = true; } 
-					else {this.isturnedon = false; }
-				}
-
-
-
-
-					};
-		console.log( 'hello friends look at my car');
-</script>
+	<title>Rocket Launch Sequence !!</title>
+	<link rel="stylesheet" type="text/css" href="css/jsrocket.css">
 </head>
 <body>
-	<H1> JS Rocket</H1>
+ <div class ="left">
+ 	<div class="state1">
+ 		<h1> Js Rocket Launch !!!</h1>
+ 		<a href="#" class="button" onclick="startCountDown ();">Launch</a>
+ 	</div>
+ 	
 
+ </div>
+ 
+ <div class="right">
+ 	<div class="rocket"></div>
+ 	<div class="ground"></div>
+ 	
+
+ </div>
 
 </body>
 </html>
