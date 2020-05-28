@@ -32,7 +32,7 @@
 	width: 143px;
 	height: 272px;
 	margin-left: -71.5px;
-	background: url('../img/rocketstate1.png') no-repeat 0 0;
+	background: url('../img/rocketstate3.gif') no-repeat 0 0;
 	transition: bottom 10000ms;
 }
 body.body-state1.rocket{
@@ -42,11 +42,11 @@ body.body-state1.rocket{
 /* rocket bg image*/
 
 body.body-state2.rocket {
-      background-image: url('../img/rocketstate3.gif');
+      background-image: url('../img/rocketstate2.gif');
 }
 body.body-state3.rocket,
 body.body-state4.rocket{
-	 background-image: url('../img/rocketstate3.gf');
+	 background-image: url('../img/rocketstate3.gif');
 }
 body.body-state5.rocket {
 
