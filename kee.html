@@ -2,17 +2,56 @@
 <html>
 <head>
 	<title> HI Keerthana </title>
+	<meta charset="utf-8">
 	<style type="text/css">
-		Body{ background-image: url(img/kee.jpeg); 
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-attachment: fixed;}
-			h1 { margin: auto;}
+		
 	</style>
+	
 </head>
 <body>
-	<h1 style="color: red"> I LOVE YOU Keerthana !!!</hi>
-	<h3> Dont get too exited this is a test page</h3>
+
+	<h1 id="title"  style="color: red;"></h1>
+
+	<button onclick=  'verse1 ()'; >I Kings 19:15-18 </button>
+	<h3 id="verse1"></h3>
+	<button onclick=  'verse2 ()'; >I Kings 19:15-18 </button>
+	<h3 id="verse2"></h3>
+	<button onclick=  'verse3 ()'; >I Kings 19:15-18 </button>
+	<h3 id="verse3"></h3>
+
+	<script type="text/javascript">
+
+		function verse1 () {
+			document.getElementById ('verse1').innerHTML = verseOne ;}
+			
+			var verseOne = "1 Kings 19:15-18 15The LORD said to him, Go back the way you came, and go to the Desert of Damascus. When you get there, anoint Hazael king over Aram. 16Also, anoint Jehu son of Nimshi king over Israel, and anoint Elisha son of Shaphat from Abel Meholah to succeed you as prophet. 17Jehu will put to death any who escape the sword of Hazael, and Elisha will put to death any who escape the sword of Jehu. 18Yet I reserve seven thousand in Israel-all whose knees have not bowed down to Baal and whose mouths have not kissed him";
+		
+		function verse2 () {
+			document.getElementById ('verse2').innerHTML = verseTwo ;}
+			
+			var verseTwo = "1 Kings 19:15-18 15The LORD said to him, Go back the way you came, and go to the Desert of Damascus. When you get there, anoint Hazael king over Aram. 16Also, anoint Jehu son of Nimshi king over Israel, and anoint Elisha son of Shaphat from Abel Meholah to succeed you as prophet. 17Jehu will put to death any who escape the sword of Hazael, and Elisha will put to death any who escape the sword of Jehu. 18Yet I reserve seven thousand in Israel-all whose knees have not bowed down to Baal and whose mouths have not kissed him";
+		
+		function verse3 () {
+			document.getElementById ('verse3').innerHTML = verseThree ;}
+			
+			var verseThree = "Hi Chris Benedict "
+
+		
+		
+		 var pageTitle = "Hi Chris Benedict !!!";
+		 document.getElementById('title').innerHTML= pageTitle ;
+
+		 
+		 var number1 = 11/2;
+		 var number2 = 2/3;
+		 var number3 = 23/11;
+
+		 var answer  = ( number1 * number2 * number3);
+
+		 alert ( answer ); 
+
+	</script>
+	
 
 </body>
 </html>
