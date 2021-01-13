@@ -29,9 +29,11 @@
 		margin:30px 30px 30px 30px;
 	}	
 	.button {
-		margin: 0px 12px 0px 0px;
+		margin: 0px 0px 0px 0px;
 		width: 100px;
-		height: 130px;}
+		height: 100px;
+		border: none;
+	}
 		.img {
 			width: 100%;
 		}
@@ -55,12 +57,12 @@
 
 		 <button class="button1" onclick= "document.getElementById ('test').innerHTML = benita ;">  <img src="img/pongal.JPEG" height="100" width="100"> <br></button>
 		 
-		 <button class="button1" onclick= "document.getElementById ('test').innerHTML = chris ;">  <img src="img/pongal.JPEG" height="100" width="100"> <br></button>
+		 <button class="button" onclick= "pongal()">  <img src="img/pongal.JPEG" height="100" width="100"> <br></button>
 		 
-		  <img src="img/pongal.JPEG"  onmouseover= "pongal();" 
+		  <img  class="button1" src="img/pongal.JPEG"  onmouseover= "pongal();" 
 		  onmouseout= "pongal1();"
 
-		   height="150" width="150"> <br></button>
+		   height="150" width="150"> 
 
 
 	<h2> Kindly accept our Pongal gifts by touching the Pot </h2>
