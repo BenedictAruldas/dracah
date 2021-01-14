@@ -1,51 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Happy and Prosperous New Year 2021</title>
+	<title> அறுவடை திருநாள் நல்வாழ்த்துக்கள்</title>
+	<meta charset="utf-8">
 	<script type="text/javascript">
 		
 		var johanna = "Psalm 91:10 no harm will overtake you, no disaster will come near your tent."
 		var benita = "Jeremiah 32:42 This is what the LORD says: I will give them all the prosperity I have promised them."
 		var chris = "Exodus 31:3 I have filled you with the Spirit of God, with wisdom, with understanding, with knowledge and with all kinds of skills"
-		var steve = "Matthew 5:15-16 Neither do people light a lamp and put it under a bowl. Instead they put it on its stand, and it gives light to everyone in the house. 16In the same way, let your light shine before others, that they may see your good deeds and glorify your Father in heaven."
+		var steve = "ஆதியாகமம் 27 : 28 தேவன் உனக்கு வானத்துப் பனியையும் பூமியின் கொழுமையையும் கொடுத்து, மிகுந்த தானியத்தையும் திராட்சரசத்தையும் தந்தருளுவாராக."
+
+		function pongal() {
+			document.getElementById ('img').src = "img/pongal3.gif";
+			document.getElementById ('test').innerHTML = steve ;
+		}
+
+		function pongal1() {
+			document.getElementById ('img').src = "img/pongal1.gif";
+			document.getElementById ('test').innerHTML = benita;
+		}
 	</script>
 	
 	<style type="text/css">
 	body {
 		text-align: center;
-		background-color: #FFC300; 
+		background-color: ; 
 		color: #70221e;
 		margin:30px 30px 30px 30px;
 	}	
 	.button {
-		margin: 0px 12px 0px 0px;
-		width: 100px;
-		height: 130px;
+		margin: 0px 0px 0px 0px;
+		width: 170px;
+		height: 170px;
+		border: none;
+	}
+		.img {
+			width: 100%;
+		}
 
-
+		.button1 {
+			display: none;
+		} 
 	</style>
 </head>
 <body>
-	<h1 style="background-color: #FF5733; color: white;" >Wishing You and Your Family a Happy and Prosperous New Year 2021 !!! </h1>
+	<h1 style="background-color: #d1e8a9; color: ;" >Wishing You and Your Family a Happy Pongal !!! </h1>
 	
 	
-	<img src="img/newyear.gif
+	<img id = "img" class="img" src="img/pongal1.gif
 	">
-	<h3 id="test" style="background-color:#900C3F; color: white;"></h3>
+	<h3 id="test" style="background-color:; color:;">உபாகமம் 24 : 19  நீ உன் பயிரை அறுக்கையில் உன் வயலிலே ஒரு அரிக்கட்டை மறதியாய் வைத்து வந்தாயானால், அதை எடுத்து வரும்படி திரும்பிப் போகவேண்டாம்; உன் தேவனாகிய கர்த்தர் உன் கைப்பிரயாசத்திலெல்லாம் உன்னை ஆசீர்வதிக்கும்படி, அதைப் பரதேசிக்கும் திக்கற்றபிள்ளைக்கும் விதவைக்கும் விட்டுவிடுவாயாக. <br><br> 20. நீ உன் ஒலிவமரத்தை உதிர்த்துவிட்டபின்பு, கொம்பிலே தப்பியிருக்கிறதைப் பறிக்கும்படி திரும்பிப் போகவேண்டாம்; அதைப் பரதேசிக்கும் திக்கற்ற பிள்ளைக்கும் விதவைக்கும் விட்டுவிடுவாயாக; <br><br>உபாகமம்
+26 :10 இப்பொழுதும், இதோ, கர்த்தாவே, தேவரீர் எனக்குக் கொடுத்த நிலத்தினுடைய கனிகளின் முதற்பலனைக் கொண்டுவந்தேன் என்று சொல்லி, அதை உன் தேவனாகிய கர்த்தருடைய சந்நிதியில் வைத்து, உன் தேவனாகிய கர்த்தருடைய சந்நிதியில் பணிந்து,<br><br>
+
+11. நீயும் லேவியனும், உன்னிடத்தில் இருக்கிற பரதேசியும் உன் தேவனாகிய கர்த்தர் உனக்கும் உன் வீட்டாருக்கும் அநுக்கிரகம்பண்ணின சகல நன்மைகளினிமித்தமும் சந்தோஷப்படுவீர்களாக.
+
+</h3>
 	
 		<div class="giftbox"> 
 
-			<button class="button" onclick= "document.getElementById ('test').innerHTML = johanna ;">  <img src="img/giftbox2.jpeg" height="100" width="80"> <br>Health</button>
+			<button class="button1" onclick= "document.getElementById ('test').innerHTML = johanna ;">  <img src="img/pongal.JPEG" height="100" width="100"> <br></button>
 
-		 <button class="button" onclick= "document.getElementById ('test').innerHTML = benita ;">  <img src="img/giftbox2.jpeg" height="100" width="80"> <br>Wealth</button>
+		 <button class="button1" onclick= "document.getElementById ('test').innerHTML = benita ;">  <img src="img/pongal.JPEG" height="100" width="100"> <br></button>
 		 
-		 <button class="button" onclick= "document.getElementById ('test').innerHTML = chris ;">  <img src="img/giftbox2.jpeg" height="100" width="80"> <br>Skill</button>
+		 <button class="button" onclick= "pongal()">  <img src="img/pongal.JPEG" height="170" width="170"> <br></button>
 		 
-		 <button class="button" style="margin: 0px 0px 0px 0px;" onclick= "document.getElementById ('test').innerHTML = steve ;">  <img src="img/giftbox2.jpeg" height="100" width="80"> <br>Spiritual</button>
+		  <img  class="button1" src="img/pongal.JPEG"  onmouseover= "pongal();" 
+		  onmouseout= "pongal1();"
+
+		   height="150" width="150"> 
 
 
-	<h2> Kindly accept our New Year gifts by clicking on the gift boxes </h2>
-<footer style="background-color:#FF5733; font-size: 30px; color: white;"> Regards  Mrs Victy Mithyla Aruldas, Sons, Daughter in-laws , Grandchildren. 
+	<h2> Kindly accept our Pongal gifts by touching the Pot </h2>
+<footer style="background-color:#d1e8a9; font-size: 30px; color:;"> Regards  Mrs Victy Mithyla Aruldas, Sons, Daughter in-laws , Grandchildren. 
 </footer>
 </body>
 </html>
