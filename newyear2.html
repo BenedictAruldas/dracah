@@ -8,11 +8,31 @@
 		var benita = "Jeremiah 32:42 This is what the LORD says: I will give them all the prosperity I have promised them."
 		var chris = "Exodus 31:3 I have filled you with the Spirit of God, with wisdom, with understanding, with knowledge and with all kinds of skills"
 		var steve = "Matthew 5:15-16 Neither do people light a lamp and put it under a bowl. Instead they put it on its stand, and it gives light to everyone in the house. 16In the same way, let your light shine before others, that they may see your good deeds and glorify your Father in heaven."
+		var hosp = "We are glad to inform you that our hospital is now NABH certified"
 
 		function one() {
-			document.getElementById ('img1').src = "img/vaccine.gif"
+			document.getElementById ('img1').src = "img/nabh.jpeg"
 			document.getElementById('img').className= 'img';
 			document.getElementById ('test').innerHTML = johanna ;
+			document.getElementById ('test1').innerHTML = hosp ;
+		}
+		function two() {
+			document.getElementById ('img1').src = "img/nabh.jpeg"
+			document.getElementById('img').className= 'img';
+			document.getElementById ('test').innerHTML = benita ;
+			document.getElementById ('test1').innerHTML = hosp ;
+		}
+		function three() {
+			document.getElementById ('img1').src = "img/nabh.jpeg"
+			document.getElementById('img').className= 'img';
+			document.getElementById ('test').innerHTML = chris ;
+			document.getElementById ('test1').innerHTML = hosp ;
+		}
+		function four() {
+			document.getElementById ('img1').src = "img/nabh.jpeg"
+			document.getElementById('img').className= 'img';
+			document.getElementById ('test').innerHTML = steve ;
+			document.getElementById ('test1').innerHTML = hosp ;
 		}
 	</script>
 	
@@ -44,21 +64,22 @@
 	
 	
 	<img id="img" src="img/newyear.gif " width="80%">
-	<img id="img1" src="" width="100%">
+	<img id="img1" src="" width="80%">
+	<h1 id="test1" style="background-color:white; color: ;"></h1>
 	<h1 id="test" style="background-color:#d1e8a9; color: ;"></h1>
 	
 		<div class="giftbox"> 
 
-			<button class="button" onclick= "one()" >  <img src="img/giftbox2.jpeg"  width="100%"> <br><h1>Health</button>
+			<button class="button" onclick= "one()" >  <img src="img/giftbox2.jpeg"  width="100%"> <br><h1>Health</h1></button>
 
-		 <button class="button1" onclick= "document.getElementById ('test').innerHTML = benita ;">  <img src="img/giftbox2.jpeg" height="100" width="80"> <br>Wealth</button>
+		 <button class="button" onclick= "two()">  <img src="img/giftbox2.jpeg" height="" width="100%"> <br><h1>Wealth</h1></button>
 		 
-		 <button class="button1" onclick= "document.getElementById ('test').innerHTML = chris ;">  <img src="img/giftbox2.jpeg" height="100" width="80"> <br>Skill</button>
+		 <button class="button" onclick= "three()">  <img src="img/giftbox2.jpeg" height="" width="100%"> <br><h1>Skill</h1></button>
 		 
-		 <button class="button1" style="margin: 0px 0px 0px 0px;" onclick= "document.getElementById ('test').innerHTML = steve ;">  <img src="img/giftbox2.jpeg" height="100" width="80"> <br>Spiritual</button>
+		 <button class="button" style="margin: 0px 0px 0px 0px;" onclick= "four()">  <img src="img/giftbox2.jpeg" height="" width="100%"> <br><h1>Spiritual</h1></button>
 
-		 <h1> Dear Friends</h2>
+		 <h1> Dear Family & Friends</h2>
 	<h1> Kindly accept our New Year gift by clicking on the gift box </h1>
-<h1 style="background-color:#FF5733; font-size: 30px; color: white;"> Regards  Dr Benedict and Team,<br> Dr A C Aruldas Hospital</h1>
+<h1 style="background-color:#FF5733; font-size: 30px; color: white;"> Regards Dr Benedict, Dr Keertha and Team,<br> <a href="https://aruldashospital.com">Dr A C Aruldas Hospital </a> <br> <a href="https://elderscommunity.com"> Dr Charles Elders Community </a><br> <a href="https://dracavtc.aruldashospital.com"> Arul Institute of Paramedical Science & Research </a> </h1>
 </body>
 </html>
